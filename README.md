@@ -1,2 +1,2 @@
-# unit-4-man
+# unit-4-game
 week 4 homework
