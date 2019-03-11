@@ -1,0 +1,83 @@
+
+.container{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.main{
+    
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 30px;
+    align-content: center;
+    background-image: linear-gradient(to top left, rgb(207, 207, 207), rgb(240, 187, 138));
+
+}
+
+
+h3, img{
+    color: slateblue;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 25px;
+    background-image: linear-gradient(to top right, hotpink, yellow);
+}
+
+img{
+    border:2px solid black;
+}
+
+.card{
+    background-image: linear-gradient(to top right, hotpink, yellow);
+    border-radius:25px;
+}
+
+.results{
+    background-color: aqua;
+    font-size: 40px;
+    margin-top:15px;
+    border-radius: 25px;
+    background-image: linear-gradient(to top left, chartreuse, aqua);
+    
+}
+
+.wins, .losses{
+    text-align: center;
+    margin: auto;
+    
+}
+
+.randomNumber{
+    font-size: 40px;
+    text-align: center;
+    padding-top:30px;
+    background-image: linear-gradient(to bottom right, chartreuse, aqua);
+    margin-top:15px;
+    border-radius: 25px;
+}
+
+.score, .scoreText{
+    font-size: 30px;
+    border-radius: 25px;
+    margin: auto;
+    background-image: linear-gradient(to top right, rgb(126, 22, 158), rgb(31, 112, 112));
+    color:whitesmoke;
+}
+
+.score{
+    width:100px;
+    text-align: center;
+    margin:auto;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.minerals{
+    margin: auto;
+    margin-top: 10px;
+}
+
+.mineral-image{
+    margin-right: 15px;
+}

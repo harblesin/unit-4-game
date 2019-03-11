@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Guess the Mineral Value!</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script type = "text/javascript" src="assets/javascript/game.js"></script>
+  
+</head>
+<body style = "background-image: url(assets/images/abback.jpg)"></body>>
+    <div class = "container">
+        <div class = "row">
+            <div style = "width: 100px; align-content: center; border-width: 2px; 
+            border-color: black" class = "col-12 card">
+                <h3 class = "card-body" style = "text-align:center">
+                    Minerals Connoisseur!
+                </h3>
+            </div>
+        </div>
+        <div class = "row">
+            <img class = "card-img-top" src = "assets/images/hank.jpg" alt = "Hank is happy"
+            style = "max-width: 400px; margin:auto">
+            </img>
+            <div class = "col-12 main" style = "height: 300px; background-color: white;
+            text-align: center; font-size: 18px; border-width: 2px; 
+            border-color: black">
+            <br>
+             Listen up, here's the rules:
+            <br>
+            <br>
+            You will be given a random number once the game begins.
+            <br>
+            <br>
+            Below are four different minerals, when you click on any of them,
+            each will add a specific number of points to your total score.
+            <br>
+            <br>
+            By matching your total score to the random number given in the beginning of the game, you win!
+            But . . . if you click too much and go over the random number, you lose!
+            <br>
+            <br>
+            You won't know the value of the mineral until you click on it!
+            <br>
+            <br>
+            But be aware, each time the game starts all the values are changed!
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-8 randomNumber">
+                
+            </div>
+            <div class = "col-4 results">
+                <div class = "row wins">
+                    Wins : 0
+                </div>
+                <div class = "row losses">
+                    Losses : 0
+                </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "minerals"></div>
+        </div>
+        <div class = "row">
+            <p class = "col-12 scoreText" style = "background-color: teal; margin-top: 10px">
+                Your total score is:
+            </p>
+        </div>
+        <div class = "row">
+            <p class = "col-12 score" style = "background-color: aquamarine; margin-top: 5px; max-width:100px;">
+                0
+            </p>
+        </div>
+    </div>
+</body>
+</html>
